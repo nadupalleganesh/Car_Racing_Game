@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Racing Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+
+  <div class="container mt-4 text-center text-white">
+    <h2>🏎️ Car Racing Game</h2>
+    <div class="mb-3">
+      <button id="start-btn" class="btn btn-success">Start</button>
+      <button id="pause-btn" class="btn btn-warning">Pause</button>
+      <button id="restart-btn" class="btn btn-danger">Restart</button>
+    </div>
+    <h4>Score: <span id="score">0</span></h4>
+  </div>
+
+  <div class="game-container">
+    <div class="road">
+      <div class="player-car" id="playerCar"></div>
+    </div>
+  </div>
+
+<script src="car.js"></script>
+</body>
+</html>
